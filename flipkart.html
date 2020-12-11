@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Flipkart</title>
+</head>
+
+<body>
+    <div class="container-fluid  bg-primary sticky-top" style="height:55px ;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6  d-flex " style="margin-top:8px">
+                    <a class="navbar-brand" href="#">
+                        <img src="logo.JPG" alt="" srcset="" style="width:100px">
+                    </a>
+
+
+                    <input class="form-control  " list="datalistOptions"
+                        placeholder="Search for products,brands and more" style="height:35px ;">
+                    <button class="btn bg-light btn-outline-light" type="submit" id="button-addon2"
+                        style="height:35px ;">
+                        <i class="material-icons text-primary">search</i>
+                    </button>
+                    <datalist id="datalistOptions">
+                        <option value="home">
+                        <option value="acer aspire 7">
+                        <option value="Mobiles">
+                        <option value="Laptop bags">
+                        <option value="laptop Tables">
+                    </datalist>
+                </div>
+                <div class="col-6 ">
+                    <div class="d-flex justify-content-end ">
+
+                        <div class="dropdown">
+                            <a class="btn btn-link dropdown-toggle text-white fw-bolder " href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="text-decoration:none;font-size: large;">
+                                Jiten
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="" style="text-decoration: none;color: dimgrey;">
+                                        <i style='font-size:14px;color: blue;padding: 7px;' class='fas'>&#xf183;</i>My
+                                        Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style='font-size:14px; color: blue;padding: 7px;'
+                                            class='fab'>&#xf379;</i>SuperCoin Zone</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style='font-size:14px;color: blue;padding: 7px;' class='fab'>&#xf42e;</i>
+                                        Flipkart Plus Zone</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class="fab">&#xf2b0;</i>
+                                        Orders</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style='font-size:14px;color: blue;padding: 7px;' class='fas'>&#xf004;</i>
+                                        Wishlist</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class="fa">&#xf1fe;</i>
+                                        My Chats</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class='fas'>&#xf187;</i>
+                                        Coupons</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class='fas'>&#xf06b;</i>
+                                        Gift Cards</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;"
+                                            class="material-icons">&#xe7f4;</i>
+                                        Notification</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class='fab'>&#xf91a;</i>
+                                        Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown ">
+                            <a class="btn btn-link dropdown-toggle text-white fw-bolder" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="text-decoration:none;font-size: large;">
+                                More
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;"
+                                            class="material-icons">&#xe7f4;</i>
+                                        Notification & Preferences</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class='fas'>&#xf06b;</i>
+                                        Sell on Flipkart</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class='fas'>&#xf87b;</i>
+                                        24x7 Customer Care</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;" class='fab'>&#xf36a;</i>
+                                        Advertise</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" href=""
+                                        style="text-decoration: none;color: dimgrey;">
+                                        <i style="font-size:14px;color: blue;padding: 7px;"
+                                            class="material-icons">&#xe2c4;</i>
+                                        Download</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fw-bolder">
+                            <div class="d-flex" style="margin-top:10px;font-size: large;">
+                                <div><a href="" style="color: white;"><i
+                                            class="material-icons">add_shopping_cart</i></a></div>
+                                <div><a href="" style="color: white;text-decoration: none;"> Cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgb(255,255,255);">
+        <div class="container">
+            <div id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown menu-area">
+                        <a class="nav-link dropdown-toggle " href="#" id="hover" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Electronics
+                        </a>
+
+                        <div class="dropdown-menu mega-area" aria-labelledby="navbarDropdownMenuLink">
+
+                            <div class="row justify-content-center">
+
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5 class="">Mobiles</h5>
+                                    <a href="#" class="dropdown-item">MI</a>
+                                    <a href="#" class="dropdown-item">Real Me</a>
+                                    <a href="#" class="dropdown-item">Samsung</a>
+                                    <a href="#" class="dropdown-item">Infinix</a>
+                                    <a href="#" class="dropdown-item">Oppo</a>
+                                    <a href="#" class="dropdown-item">Apple</a>
+                                    <a href="#" class="dropdown-item">Vivo</a>
+                                    <a href="#" class="dropdown-item">Honour</a>
+                                    <a href="#" class="dropdown-item">Asus</a>
+                                    <a href="#" class="dropdown-item">Poco X2</a>
+                                    <a href="#" class="dropdown-item">Real Me Narzo 10</a>
+                                    <a href="#" class="dropdown-item">Infinity hot 9</a>
+                                    <a href="#" class="dropdown-item">IQOO</a>
+                                    <a href="#" class="dropdown-item">Iphone SE</a>
+                                    <a href="#" class="dropdown-item">Motorola razr</a>
+                                    <a href="#" class="dropdown-item">Real Me Narzo 10a</a>
+                                    <a href="#" class="dropdown-item">motorola g8 power lite</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Mobile Accessories</h5>
+                                    <a href="#" class="dropdown-item">Mobile Case</a>
+                                    <a href="#" class="dropdown-item">Headphone & Headsets</a>
+                                    <a href="#" class="dropdown-item">Power Banks</a>
+                                    <a href="#" class="dropdown-item">Screenguards</a>
+                                    <a href="#" class="dropdown-item">Memory Cards</a>
+                                    <a href="#" class="dropdown-item">Smart Headphones</a>
+                                    <a href="#" class="dropdown-item">Mobile Cables</a>
+                                    <a href="#" class="dropdown-item">Mobile Chargers</a>
+                                    <a href="#" class="dropdown-item">Memory Holders</a>
+                                    <h5>Smart Wearable Tech</h5>
+                                    <a href="#" class="dropdown-item">Smart Watches</a>
+                                    <a href="#" class="dropdown-item">Smart Glasses(VR)</a>
+                                    <a href="#" class="dropdown-item">Smart Bands</a>
+                                    <h5>Health Care Appliances</h5>
+                                    <a href="#" class="dropdown-item">BP Monitors</a>
+                                    <a href="#" class="dropdown-item">Weiaghing Scales</a>
+
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Laptops</h5>
+                                    <a href="#" class="dropdown-item">Gaming Laptops</a>
+                                    <h5>Desktop PCs</h5>
+                                    <h5>Gaming & Accessories</h5>
+                                    <h5>Computer Accessories</h5>
+                                    <a href="#" class="dropdown-item">External Hardisks</a>
+                                    <a href="#" class="dropdown-item">Pendrives</a>
+                                    <a href="#" class="dropdown-item">Laptop Screens & Decals</a>
+                                    <a href="#" class="dropdown-item">Laptop Bags </a>
+                                    <a href="#" class="dropdown-item">Mouse</a>
+                                    <h5>Computer Peripherals</h5>
+                                    <a href="#" class="dropdown-item">Printers & Ink Catridges</a>
+                                    <a href="#" class="dropdown-item">Monitors</a>
+                                    <h5>Tablets</h5>
+                                    <a href="#" class="dropdown-item">Apple Ipads</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <a href="#" class="dropdown-item">Televisions</a>
+                                    <h5>Speakers</h5>
+                                    <a href="#" class="dropdown-item">Home Audio Speakers</a>
+                                    <a href="#" class="dropdown-item">Home Theaters</a>
+                                    <a href="#" class="dropdown-item">Soundbars</a>
+                                    <a href="#" class="dropdown-item">Blutooth Speakers</a>
+                                    <a href="#" class="dropdown-item">DTH Setop Box</a>
+                                    <h5>Smart Home Automation</h5>
+                                    <a href="#" class="dropdown-item">Google Nest</a>
+                                    <h5>Camera</h5>
+                                    <a href="#" class="dropdown-item">DSLR & Mirrorless</a>
+                                    <a href="#" class="dropdown-item">Compact & Bridge Cameras</a>
+                                    <a href="#" class="dropdown-item">Sports & Action</a>
+                                    <h5>Camera Accessories</h5>
+                                    <a href="#" class="dropdown-item">Lens</a>
+                                    <a href="#" class="dropdown-item">Tripods</a>
+                                    <h5>Network Components</h5>
+                                    <a href="#" class="dropdown-item">Routors</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Featured</h5>
+                                    <a href="#" class="dropdown-item">Google Accessories Store</a>
+                                    <a href="#" class="dropdown-item">Laptops on Buyback Guarentees</a>
+                                    <a href="#" class="dropdown-item">Flipkart SmartBuy</a>
+                                    <a href="#" class="dropdown-item">Li-Polymer Poer Banks</a>
+                                    <a href="#" class="dropdown-item">Sony PS4 Pro & Slim</a>
+                                    <a href="#" class="dropdown-item">Apple Products</a>
+                                    <a href="#" class="dropdown-item">Microsoft Store</a>
+                                    <a href="#" class="dropdown-item">Lenove Phab Series</a>
+                                    <a href="#" class="dropdown-item">JBL Speakers</a>
+                                    <a href="#" class="dropdown-item">Smartphones on Buyback <br> Guarentee</a>
+                                    <a href="#" class="dropdown-item">Phillips</a>
+                                    <a href="#" class="dropdown-item">Dr. Morepen</a>
+                                    <a href="#" class="dropdown-item">Complete Mobile Protection</a>
+                                    <a href="#" class="dropdown-item">Mobile No Cost EMI</a>
+                                    <a href="#" class="dropdown-item">Huawei Watch Gt 2e Smart Watch</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown menu-area">
+                        <a class="nav-link dropdown-toggle " href="#" id="hover" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            TV & Appliances
+                        </a>
+
+                        <div class="dropdown-menu mega-area" aria-labelledby="navbarDropdownMenuLink">
+
+                            <div class="row justify-content-center">
+
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5 class="">Televesion</h5>
+                                    <h5 class="">New Lunches</h5>
+                                    <h5 class="">Smart & Ultra HD</h5>
+                                    <h5 class="">Top Brands</h5>
+                                    <a href="#" class="dropdown-item">MI</a>
+                                    <a href="#" class="dropdown-item">Vu</a>
+                                    <a href="#" class="dropdown-item">Thompson</a>
+                                    <a href="#" class="dropdown-item">iFFALCON by TCL</a>
+                                    <a href="#" class="dropdown-item">Nokia</a>
+                                    <a href="#" class="dropdown-item">LG</a>
+                                    <a href="#" class="dropdown-item">Realme</a>
+                                    <a href="#" class="dropdown-item">Motorola</a>
+                                    <h5 class="">Shop by Screen Size</h5>
+                                    <a href="#" class="dropdown-item">24 & below</a>
+                                    <a href="#" class="dropdown-item">28 - 32</a>
+                                    <a href="#" class="dropdown-item">39 - 43</a>
+                                    <a href="#" class="dropdown-item">48 - 55</a>
+                                    <a href="#" class="dropdown-item">60 & Above</a>    
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Washing Machines</h5>
+                                    <a href="#" class="dropdown-item">Fully Automated Front Load</a>
+                                    <a href="#" class="dropdown-item">Semi Automatic Top Load</a>
+                                    <a href="#" class="dropdown-item">Fully Automated Top Load</a>
+                                    <h5>Air Conditioners</h5>
+                                    <a href="#" class="dropdown-item">Inveter AC</a>
+                                    <a href="#" class="dropdown-item">Split ACs</a>
+                                    <a href="#" class="dropdown-item">Window ACs</a>
+                                    <h5>Shop by Brands</h5>
+                                    <a href="#" class="dropdown-item">LG</a>
+                                    <a href="#" class="dropdown-item">Hitachi</a>
+                                    <a href="#" class="dropdown-item">Carrier</a>
+                                    <h5>Refrigerators</h5>
+                                    <a href="#" class="dropdown-item">Single Door</a>
+                                    <a href="#" class="dropdown-item">Double Door</a>
+                                    <a href="#" class="dropdown-item">Triple Door</a>
+                                    <a href="#" class="dropdown-item">Side by Side</a>
+                                    <a href="#" class="dropdown-item">Convertible</a>
+                                    </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Kitchen Appliances</h5>
+                                    <a href="#" class="dropdown-item">Microwave Ovens</a>
+                                    <a href="#" class="dropdown-item">Oven Toaster Grills(OTG)</a>
+                                    <a href="#" class="dropdown-item">Juicer/Mixer Grinder</a>
+                                    <a href="#" class="dropdown-item">Ellectric Kettle</a>
+                                    <a href="#" class="dropdown-item">Induction Cooktops</a>
+                                    <a href="#" class="dropdown-item">Chimneys</a>
+                                    <a href="#" class="dropdown-item">Hand Blenders</a>
+                                    <a href="#" class="dropdown-item">Sandwitch Makers</a>
+                                    <a href="#" class="dropdown-item">Pop Up Toaster</a>
+                                    <a href="#" class="dropdown-item">Electric cooker</a>
+                                    <a href="#" class="dropdown-item">West Grinders</a>
+                                    <a href="#" class="dropdown-item">Food Processors</a>
+                                    <a href="#" class="dropdown-item">Cofee Makers</a>
+                                    <a href="#" class="dropdown-item">Dish Washer</a>
+                                    <h5>Healthy Living Appliances</h5>
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Small Home Appliances</h5>
+                                    <a href="#" class="dropdown-item">Irons</a>
+                                    <a href="#" class="dropdown-item">Water Purifiers</a>
+                                    <a href="#" class="dropdown-item">Fans</a>
+                                    <a href="#" class="dropdown-item">Air Coolers</a>
+                                    <a href="#" class="dropdown-item">Inveter</a>
+                                    <a href="#" class="dropdown-item">Vacume Cleaner</a>
+                                    <a href="#" class="dropdown-item">Sewing Machines</a>
+                                    <a href="#" class="dropdown-item">Voltage Stabilizers</a>
+                                    <a href="#" class="dropdown-item">Water Geysers</a>
+                                    <a href="#" class="dropdown-item">Immersion Rods</a>
+                                    <h5>Top Brands</h5>
+                                    <a href="#" class="dropdown-item">Livpure</a>
+                                    <a href="#" class="dropdown-item">Philips</a>
+                                    <a href="#" class="dropdown-item">Bajaj</a>
+                                    <a href="#" class="dropdown-item">IFB</a> 
+                                    <a href="#" class="dropdown-item">Eureka Forbes</a>
+                                    <a href="#" class="dropdown-item">Kaff</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Buying Guides</h5>
+                                    <a href="#" class="dropdown-item">Televisions</a>
+                                    <a href="#" class="dropdown-item">Washing Machines</a>
+                                    <a href="#" class="dropdown-item">Refrigerators</a>
+                                    <a href="#" class="dropdown-item">Air Conditioners</a>
+                                    <a href="#" class="dropdown-item">Water Purifiers</a>
+                                    <a href="#" class="dropdown-item">Air Purifiers</a>
+                                    <a href="#" class="dropdown-item">Chimneys</a>
+                                    <a href="#" class="dropdown-item">Water Geysers</a>
+                                    <h5>New Lunches</h5>
+                                    <a href="#" class="dropdown-item">Coocaa Smart TVs</a>
+                                    <a href="#" class="dropdown-item">Nokia (55) 4K Android TV</a>
+                                    <a href="#" class="dropdown-item">MI (32) 4a Pro Android TV</a>
+                                    <a href="#" class="dropdown-item">MarQ (43) FHD Smart TV</a>
+                                    <a href="#" class="dropdown-item">LG Refrigerators</a>
+                                    <a href="#" class="dropdown-item">Thomson (40) 4K Smart TV</a>
+                                    <a href="#" class="dropdown-item">Whirlpool Refrigerators</a>
+                                    <a href="#" class="dropdown-item">Kodak (22) (32) LED TVs</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown menu-area">
+                        <a class="nav-link dropdown-toggle " href="#" id="hover" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mens
+                        </a>
+
+                        <div class="dropdown-menu mega-area" aria-labelledby="navbarDropdownMenuLink">
+
+                            <div class="row justify-content-center">
+
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5 class="">Footwear</h5>
+                                    
+                                    <a href="#" class="dropdown-item">Sports Shoes</a>
+                                    <a href="#" class="dropdown-item">Casual Shoes</a>
+                                    <a href="#" class="dropdown-item">Formal Shoes</a>
+                                    <a href="#" class="dropdown-item">iFFALCON by TCL</a>
+                                    <a href="#" class="dropdown-item">Sandals & Floaters</a>
+                                    <a href="#" class="dropdown-item">Flip- Flops</a>
+                                    <a href="#" class="dropdown-item">Loafers</a>
+                                    <a href="#" class="dropdown-item">Boots</a>
+                                    <a href="#" class="dropdown-item">Running Shoes</a>
+                                    <a href="#" class="dropdown-item">Sneakers</a>
+                                    <h5 class="">Mens Grooming</h5>
+                                    <a href="#" class="dropdown-item">Deodrants</a>
+                                    <a href="#" class="dropdown-item">Perfumes</a>
+                                    <a href="#" class="dropdown-item">Beard Cares & Grooming</a>
+                                    <a href="#" class="dropdown-item">Shaving & Aftershave</a>
+                                    <a href="#" class="dropdown-item">Sexual Wellness</a>    
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Clothing</h5>
+                                    <h5>Top Wear</h5>
+                                    <a href="#" class="dropdown-item">T-Shirts</a>
+                                    <a href="#" class="dropdown-item">Formal Shirts</a>
+                                    <a href="#" class="dropdown-item">Casual Shirts</a>
+                                    <h5>Bottom wear</h5>
+                                    <a href="#" class="dropdown-item">Jeans</a>
+                                    <a href="#" class="dropdown-item">Casual Trausers</a>
+                                    <a href="#" class="dropdown-item">Formal Trousers</a>
+                                    <a href="#" class="dropdown-item">Track Pants</a>
+                                    <a href="#" class="dropdown-item">Shorts</a>
+                                    <a href="#" class="dropdown-item">Cargos</a>
+                                    <a href="#" class="dropdown-item">Three Fourths</a>
+                                    <h5>Suits,Blazzers & Waistcoats</h5>
+                                    <h5>Ties,Socks,Caps & More</h5>
+                                    <h5>Fabrics</h5>
+                                    
+                                    </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Winter Wear</h5>
+                                    <a href="#" class="dropdown-item">Sweetshirts</a>
+                                    <a href="#" class="dropdown-item">Jackets</a>
+                                    <a href="#" class="dropdown-item">Sweater</a>
+                                    <a href="#" class="dropdown-item">Tracksuits</a>
+                                    <h5>Ethinic Wear</h5>
+                                    <a href="#" class="dropdown-item">Kurta</a>
+                                    <a href="#" class="dropdown-item">Ethinic Sets</a>
+                                    <a href="#" class="dropdown-item">Dhoti</a>
+                                    <a href="#" class="dropdown-item">Lungi</a>
+                                    <h5>Innerwear & Loungewear</h5>
+                                    <a href="#" class="dropdown-item">Brief & Trunks</a>
+                                    <a href="#" class="dropdown-item">Vests</a>
+                                    <a href="#" class="dropdown-item">Boxers</a>
+                                    <a href="#" class="dropdown-item">Pyjamas and Lounge Pants</a>
+                                    <a href="#" class="dropdown-item">Thermals</a>
+                                    <a href="#" class="dropdown-item">Night Suits</a>
+                                    <h5>Raincoats & Windcheaters</h5>
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Watches</h5>
+                                    <a href="#" class="dropdown-item">Fastrack</a>
+                                    <a href="#" class="dropdown-item">Casio</a>
+                                    <a href="#" class="dropdown-item">Titan</a>
+                                    <a href="#" class="dropdown-item">Fossil</a>
+                                    <a href="#" class="dropdown-item">Sonata</a>
+                                    <h5>Accessories</h5>
+                                    <a href="#" class="dropdown-item">Backpacks</a>
+                                    <a href="#" class="dropdown-item">Wallets</a>
+                                    <a href="#" class="dropdown-item">Belts</a>
+                                    <a href="#" class="dropdown-item">Sunglases</a>
+                                    <a href="#" class="dropdown-item">Luggage & Travel</a>
+                                    <a href="#" class="dropdown-item">Frames</a>
+                                    <a href="#" class="dropdown-item">Jewellery</a>
+                                    <h5>Sports & Fitness Store</h5>
+                                    
+                                    
+                                </div>
+                                <div class="col-sm-6 col-lg-2">
+                                    <h5>Smart Watches</h5>
+                                    <h5>Smart Bands</h5>
+                                    <h5>Personal Care Appliances</h5>
+                                    <a href="#" class="dropdown-item">Trimmers</a>
+                                    <a href="#" class="dropdown-item">Shavers</a>
+                                    <a href="#" class="dropdown-item">Grooming Kits</a>
+                                    <h5>Featured</h5>
+                                    <a href="#" class="dropdown-item">Watches Store</a>
+                                    <a href="#" class="dropdown-item">Footwear Club</a>
+                                    <a href="#" class="dropdown-item">Bags & Wallet</a>
+                                    <a href="#" class="dropdown-item">T-Shirt Store</a>
+                                    <a href="#" class="dropdown-item">Adidas</a>
+                                    <a href="#" class="dropdown-item">Beardo</a>
+                                    <a href="#" class="dropdown-item">Reebok</a>
+                                    <a href="#" class="dropdown-item">Skechers</a>
+                                    <a href="#" class="dropdown-item">Nike</a>
+                                    <a href="#" class="dropdown-item">LG Refrigerators</a>
+                                   
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a id="hover" class="nav-link" href="#">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="hover" class="nav-link" href="#">Offer Zone</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+</html>
