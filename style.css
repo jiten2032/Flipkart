@@ -34,8 +34,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 font-size: 15px;
 }
 /* end of second navbar */
-.carousel-control-prev,
-.carousel-control-next
+#slide
 {
 width: 50px;
 height: 100px;
@@ -45,4 +44,11 @@ border-radius: 5px;
 
 top: calc(50% - 45px);
 }
+/* <!-- end of 1st carousel --> */
+.card-link{
+text-decoration: none;
+padding: 0px;
 
+}
+/* <!-- end of 2nd carousel --> */
+/* end of cards */
