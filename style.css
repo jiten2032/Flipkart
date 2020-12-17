@@ -45,6 +45,20 @@ border-radius: 5px;
 top: calc(50% - 45px);
 }
 /* <!-- end of 1st carousel --> */
+.card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+  }
+  .card {
+   
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all .2s linear;
+  }
+
+
 .card-link{
 text-decoration: none;
 padding: 0px;
@@ -56,4 +70,5 @@ padding: 0px;
 /* end of  2nd Cards */
 /* end of 4th carousel */
 /* end of 5th carousel */
-
+/* end of 6th carousel */
+/* end of footer sub-footer  */
