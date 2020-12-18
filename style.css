@@ -72,3 +72,23 @@ padding: 0px;
 /* end of 5th carousel */
 /* end of 6th carousel */
 /* end of footer sub-footer  */
+.card-body li {
+list-style-type: none;
+
+}
+#title{
+margin-left: 20px;
+color: dimgrey;
+font-size: 14px;
+
+}
+.card-body li a {
+color: white;
+font-size: 12px;
+
+
+}
+.card-body li a:hover{
+text-decoration: underline;
+
+}
