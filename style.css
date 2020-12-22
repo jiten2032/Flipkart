@@ -41,7 +41,7 @@ height: 100px;
 background-color:white;
 opacity: 1;
 border-radius: 5px;
-
+box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
 top: calc(50% - 45px);
 }
 /* <!-- end of 1st carousel --> */
@@ -56,6 +56,15 @@ top: calc(50% - 45px);
     border-radius: 5px;
     overflow: hidden;
     transition: all .2s linear;
+  }
+  #Cardimg{
+    height:120px;
+    width:120px;
+    display: block;
+    margin: 10px auto 0px auto;
+
+
+
   }
 
 
